@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+@import url("styles/section.css");
+
+
+body {
+    background-image: url("./img/imagem-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    font-family: "Roboto" ;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --laranja: #FFB900;
+}

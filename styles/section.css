@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: end;
+    padding: 0 1em 2em;
+    margin: 0 0.5em;
+}
+
+.container__imagem {
+    text-align: center;
+}
+
+.container__sessao {
+    display:flex;
+}
+
+.sessao__item {
+    text-align: center;
+    margin: 3em 0;
+}
+
+.sessao__skewd {
+    transform: skew(-15deg);
+}
+
+.sessao__div-2 {
+    margin: 2em 0;
+}
+
+.item__link {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--preto);
+    background: var(--laranja);
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.sessao__skewd>.intem__fundo-branco {
+    background: var(--branco);
+}
+
+.item__link:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.imagem__vozao-logo {
+    margin: 3em 0;
+}
+
+.container__rede-sociais {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.rede__sociais-item {
+    display: flex;
+}
+
+.rede__sociais-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.rede__sociais-link:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.rede__sociais-texto {
+    color: var(--branco);
+    font-weight: 700;
+    text-align: center;
+}
